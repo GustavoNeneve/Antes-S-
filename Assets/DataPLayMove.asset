@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a317c756d13339b46a371cdf42855ca6, type: 3}
-  m_Name: New Player Data With Dash
+  m_Name: DataPLayMove
   m_EditorClassIdentifier: 
   gravityStrength: 0
   gravityScale: 0
