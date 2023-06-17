@@ -40,9 +40,9 @@ public class BLakcHole : MonoBehaviour
     public IEnumerator Reset()
     {
         
-        ScreenEffects.Keyhole(demoKey_keyhole, demoKey_target, demoKey_Col, demoKey_fTime, demoKey_anim, this, false);
+        ScreenEffects.Keyhole(demoKey_keyhole, demoKey_target, demoKey_Col, demoKey_fTime, demoKey_anim, this, true);
 
-        yield return new WaitForSeconds(1.7f);
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
        
