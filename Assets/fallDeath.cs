@@ -22,6 +22,7 @@ public class fallDeath : MonoBehaviour
     {
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Debug.Log("Reloaded Scene FallDeath");
  
     }
 
