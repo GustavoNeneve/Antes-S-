@@ -978,6 +978,7 @@ GameObject:
   - component: {fileID: 881357027}
   - component: {fileID: 881357026}
   - component: {fileID: 881357029}
+  - component: {fileID: 881357031}
   - component: {fileID: 881357030}
   m_Layer: 0
   m_Name: player
@@ -995,7 +996,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 881357025}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 04b51b0c2978ff343a7363a457ad148f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1070,6 +1071,7 @@ Transform:
   - {fileID: 2129653670}
   - {fileID: 879830979}
   - {fileID: 695382716}
+  - {fileID: 1667947873}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1115,6 +1117,18 @@ MonoBehaviour:
   _groundLayer:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &881357031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881357025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f093cd3c19b386428766788fc6778fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &976963004
 GameObject:
   m_ObjectHideFlags: 0
@@ -1127,9 +1141,9 @@ GameObject:
   - component: {fileID: 976963007}
   - component: {fileID: 976963006}
   - component: {fileID: 976963005}
-  m_Layer: 0
-  m_Name: Circle
-  m_TagString: Untagged
+  m_Layer: 8
+  m_Name: Orb
+  m_TagString: Grabbable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1150,7 +1164,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: e1f73d4077d6ed749a53375430720c52, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -1164,7 +1178,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 976963004}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: e1f73d4077d6ed749a53375430720c52, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1349,6 +1363,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1667947872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1667947873}
+  m_Layer: 0
+  m_Name: Grab posi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1667947873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667947872}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.454, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 881357028}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1795799036
 PrefabInstance:
   m_ObjectHideFlags: 0
