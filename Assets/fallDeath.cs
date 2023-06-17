@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class fallDeath : MonoBehaviour
 {
+    public BLakcHole demoKey_keyhole;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,7 @@ public class fallDeath : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        StartCoroutine(demoKey_keyhole.Reset());
         Debug.Log("Reloaded Scene FallDeath");
  
     }
