@@ -20,7 +20,9 @@ public class anim : MonoBehaviour
         anime = GetComponent<Animator>();
         //findobject of type grab
         grabbedObject = FindObjectOfType<Grab>().GetComponent<Grab>();
+        grabber = grabbedObject;
         player = FindObjectOfType<PlayerMovement>().GetComponent<PlayerMovement>();
+
         //audioSourceFoot = GetComponent<AudioSource>();
 
     }
@@ -28,6 +30,8 @@ public class anim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        
         float move = Input.GetAxis("Horizontal");
         //move set float walk
         if(move != 0)
@@ -54,13 +58,14 @@ public class anim : MonoBehaviour
             if(isGrabbing == true)
             {
             anime.SetTrigger("grabb");
+            StartCoroutine(Grab());
             audioSourceGrab.enabled = true;
             }
             
         }
         else
         {
-            anime.SetBool("grabb", false);
+            //anime.SetBool("grabb", false);
             audioSourceGrab.enabled = false;
         }
         anime.SetFloat("walk", move);
@@ -92,5 +97,15 @@ public class anim : MonoBehaviour
         }
     
      
+    }
+
+    //coroutine for grab
+    IEnumerator Grab()
+    {
+        //set grab to true
+        //wait for 1 second
+        yield return new WaitForSeconds(1);
+        //set grab to false
+        grabb = true;
     }
 }
