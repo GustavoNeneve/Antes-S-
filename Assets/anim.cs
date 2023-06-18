@@ -95,7 +95,15 @@ public class anim : MonoBehaviour
         {
             anime.SetBool("slide", false);
         }
-    
+
+        if(player.IsWallJumping == true)
+        {
+            anime.SetBool("walljump", true);
+        }
+        else
+        {
+            anime.SetBool("walljump", false);
+        }
      
     }
 

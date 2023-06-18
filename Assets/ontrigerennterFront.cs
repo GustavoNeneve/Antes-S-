@@ -24,7 +24,7 @@ public class ontrigerennterFront : MonoBehaviour
         if (other.CompareTag("Ground"))
         {
             
-            grab.isObsB = true;
+            grab.isObsF = true;
             
         }
     }
@@ -34,9 +34,9 @@ public class ontrigerennterFront : MonoBehaviour
         if (other.CompareTag("Ground"))
         {
             
-            grab.isObsB = false;
+            grab.isObsF = false;
             
         }
     }
 }
-}
+
