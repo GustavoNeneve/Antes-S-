@@ -9,7 +9,7 @@ public class fallDeath : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        demoKey_keyhole = FindObjectOfType<BLakcHole>().GetComponent<BLakcHole>();
     }
 
     // Update is called once per frame

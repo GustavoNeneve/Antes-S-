@@ -17,6 +17,7 @@ public class BLakcHole : MonoBehaviour
     {
         demoKey_bIsEntering = false;
         DemoKeyhole();
+        demoKey_target = FindObjectOfType<PlayerMovement>().GetComponent<Transform>();
 
     }
 
