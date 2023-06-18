@@ -608,7 +608,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -616,6 +616,69 @@ TextureImporter:
       bones: []
       spriteID: bfe2f97970ebd2641897c75319648b0e
       internalID: -609057132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_24
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d47754363c11c34997408193f7607eb
+      internalID: 2042085445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf673065bbd0fd842bd61a8c6667cb9e
+      internalID: -914625021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902001e484f649b4ea98611b3628bc10
+      internalID: 942149032
       vertices: []
       indices: 
       edges: []
@@ -631,12 +694,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      cenario_0: -839439145
+      cenario_21: -1620738977
       cenario_15: 1313300482
       cenario_7: -539551404
       cenario_13: 873820579
       cenario_10: 2088592471
+      cenario_25: -914625021
       cenario_9: -1538437647
+      cenario_24: 2042085445
+      cenario_26: 942149032
       cenario_6: 2056536280
       cenario_19: 1744644841
       cenario_4: 1065198077
@@ -654,7 +720,7 @@ TextureImporter:
       cenario_11: -253784167
       cenario_12: -1172029128
       cenario_17: -1209199155
-      cenario_21: -1620738977
+      cenario_0: -839439145
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
