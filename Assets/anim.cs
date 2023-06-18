@@ -9,6 +9,8 @@ public class anim : MonoBehaviour
     public bool grabb;
     public Grab grabbedObject;
     public PlayerMovement player;
+    public bool isGrabbing = false;
+    public Grab grabber;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,10 +27,19 @@ public class anim : MonoBehaviour
     {
         float move = Input.GetAxis("Horizontal");
         //move set float walk
-       
+        if(move != 0)
+        {
+            anime.SetFloat("walk", 1);
+        }
+        else
+        {
+            anime.SetFloat("walk", 0);
+        }
+        
         if(grabbedObject.isGrabbing == true)
         {
             anime.SetBool("grabb", true);
+            
         }
         else
         {
@@ -51,6 +62,14 @@ public class anim : MonoBehaviour
         else
         {
             anime.SetBool("fall", false);
+        }
+        if(player.IsSliding == true)
+        {
+            anime.SetBool("slide", true);
+        }
+        else
+        {
+            anime.SetBool("slide", false);
         }
     
      
