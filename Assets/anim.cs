@@ -44,6 +44,14 @@ public class anim : MonoBehaviour
         {
             anime.SetBool("jump", false);
         }
+        if(player._isJumpFalling == true)
+        {
+            anime.SetBool("fall", true);
+        }
+        else
+        {
+            anime.SetBool("fall", false);
+        }
     
      
     }

@@ -39,13 +39,14 @@ public class PlayerMovement : MonoBehaviour
 
 	//Jump
 	private bool _isJumpCut;
-	private bool _isJumpFalling;
+	[HideInInspector]
+	public bool _isJumpFalling;
 
 	//Wall Jump
 	private float _wallJumpStartTime;
 	private int _lastWallJumpDir;
 
-	private Vector2 _moveInput;
+	public Vector2 _moveInput;
 	public float LastPressedJumpTime { get; private set; }
 
 	//Set all of these up in the inspector
