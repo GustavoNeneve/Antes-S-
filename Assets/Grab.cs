@@ -42,9 +42,6 @@ public class Grab : MonoBehaviour
 
                         Debug.Log("Grabbed Object");
                         
-                    }else if(grabbedObject.transform.position == grabposition.position)
-                    {
-                        grabbedObject.transform.position = grabposition.position;
                     }
                     grabbedObject.transform.parent = transform;
                     
@@ -53,8 +50,7 @@ public class Grab : MonoBehaviour
                 else if(Input.GetKeyUp(KeyCode.E) && grabbedObject != null)
                 {
                     grabbedObject.GetComponent<Rigidbody2D>().isKinematic = false;
-                     //move towards raycast point
-                    grabbedObject.transform.position = Vector2.MoveTowards(grabbedObject.transform.position, raycastpoint.position, (10* Time.deltaTime));
+                    grabbedObject.transform.position = new Vector3(1.4f, raycastpoint.position.y, 0);
                     grabbedObject.transform.parent = null;
                     grabbedObject = null;
 
