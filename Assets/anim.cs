@@ -9,8 +9,10 @@ public class anim : MonoBehaviour
     public bool grabb;
     public Grab grabbedObject;
     public PlayerMovement player;
-    public bool isGrabbing = false;
+    public bool isGrabbing = true;
     public Grab grabber;
+    public AudioSource audioSourceFoot;
+    public AudioSource audioSourceGrab;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,7 @@ public class anim : MonoBehaviour
         //findobject of type grab
         grabbedObject = FindObjectOfType<Grab>().GetComponent<Grab>();
         player = FindObjectOfType<PlayerMovement>().GetComponent<PlayerMovement>();
+        //audioSourceFoot = GetComponent<AudioSource>();
 
     }
 
@@ -30,26 +33,42 @@ public class anim : MonoBehaviour
         if(move != 0)
         {
             anime.SetFloat("walk", 1);
+            if(player.IsOnGround == true)
+            {
+                audioSourceFoot.enabled = true;
+            }
+            else
+            {
+                audioSourceFoot.enabled = false;
+            }
+
         }
         else
         {
             anime.SetFloat("walk", 0);
+            audioSourceFoot.enabled = false;
         }
         
         if(grabbedObject.isGrabbing == true)
         {
-            anime.SetBool("grabb", true);
+            if(isGrabbing == true)
+            {
+            anime.SetTrigger("grabb");
+            audioSourceGrab.enabled = true;
+            }
             
         }
         else
         {
             anime.SetBool("grabb", false);
+            audioSourceGrab.enabled = false;
         }
         anime.SetFloat("walk", move);
 
         if(player.IsJumping == true)
         {
             anime.SetBool("jump", true);
+            
         }
         else
         {

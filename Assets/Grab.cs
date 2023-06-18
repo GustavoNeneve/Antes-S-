@@ -10,6 +10,7 @@ public class Grab : MonoBehaviour
     public GameObject grabbedObject;
     public int layerm;
     public bool isGrabbing;
+    public anim anim;
 
 
 
@@ -19,6 +20,7 @@ public class Grab : MonoBehaviour
         //debug log 
         Debug.Log("Grab Script is working");
         layerm = LayerMask.NameToLayer("Grabbable");
+        anim = FindObjectOfType<anim>().GetComponent<anim>();
     }
 
     // Update is called once per frame
@@ -58,6 +60,7 @@ public class Grab : MonoBehaviour
                 grabbedObject = null;
 
                 isGrabbing = false;
+                anim.isGrabbing = true;
             }
         Debug.DrawRay(raycastpoint.position, transform.right * raycastdistance, Color.red);
 
