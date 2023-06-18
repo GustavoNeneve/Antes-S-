@@ -1,0 +1,1347 @@
+fileFormatVersion: 2
+guid: 0d4bce1ef59924d48ba61296ad2ce990
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8099940891106924358
+    second: uiLifeAni_0
+  - first:
+      213: -223743096339691249
+    second: uiLifeAni_1
+  - first:
+      213: 7121190511677133642
+    second: uiLifeAni_2
+  - first:
+      213: 1472152888032311746
+    second: uiLifeAni_3
+  - first:
+      213: 5018352805388564878
+    second: uiLifeAni_4
+  - first:
+      213: -1308461505197438980
+    second: uiLifeAni_5
+  - first:
+      213: 7866685473592193237
+    second: uiLifeAni_6
+  - first:
+      213: -1519374412467544298
+    second: uiLifeAni_7
+  - first:
+      213: -8264093265027601108
+    second: uiLifeAni_8
+  - first:
+      213: 5614088160355049760
+    second: uiLifeAni_9
+  - first:
+      213: -916026547468258583
+    second: uiLifeAni_10
+  - first:
+      213: -7984390801722718857
+    second: uiLifeAni_11
+  - first:
+      213: -1651959142811370610
+    second: uiLifeAni_12
+  - first:
+      213: -8162661924739448097
+    second: uiLifeAni_13
+  - first:
+      213: 1729482443028352990
+    second: uiLifeAni_14
+  - first:
+      213: 1128581693320556118
+    second: uiLifeAni_15
+  - first:
+      213: 4892287728483726080
+    second: uiLifeAni_16
+  - first:
+      213: 1649638975974360402
+    second: uiLifeAni_17
+  - first:
+      213: 2599353026450317562
+    second: uiLifeAni_18
+  - first:
+      213: 7064623261795544027
+    second: uiLifeAni_19
+  - first:
+      213: -3902196162808182319
+    second: uiLifeAni_20
+  - first:
+      213: 6994264468064918381
+    second: uiLifeAni_21
+  - first:
+      213: 2929557567861605804
+    second: uiLifeAni_22
+  - first:
+      213: 7803564982662411741
+    second: uiLifeAni_23
+  - first:
+      213: -2264759140831556839
+    second: uiLifeAni_24
+  - first:
+      213: 1740166317853591088
+    second: uiLifeAni_25
+  - first:
+      213: 2799969591906360497
+    second: uiLifeAni_26
+  - first:
+      213: -123205415517990022
+    second: uiLifeAni_27
+  - first:
+      213: -6515918775194604971
+    second: uiLifeAni_28
+  - first:
+      213: -7591861060007634461
+    second: uiLifeAni_29
+  - first:
+      213: -3021755304551076894
+    second: uiLifeAni_30
+  - first:
+      213: 8186589311315513445
+    second: uiLifeAni_31
+  - first:
+      213: 1923987843859436889
+    second: uiLifeAni_32
+  - first:
+      213: -4310381184673207012
+    second: uiLifeAni_33
+  - first:
+      213: 652406442473031519
+    second: uiLifeAni_34
+  - first:
+      213: 7926849069241196572
+    second: uiLifeAni_35
+  - first:
+      213: 2703859218128528668
+    second: uiLifeAni_36
+  - first:
+      213: -3127607721074675498
+    second: uiLifeAni_37
+  - first:
+      213: 8689772231564580178
+    second: uiLifeAni_38
+  - first:
+      213: -5302148792889443485
+    second: uiLifeAni_39
+  - first:
+      213: -1875499195645128051
+    second: uiLifeAni_40
+  - first:
+      213: 5558206729022070149
+    second: uiLifeAni_41
+  - first:
+      213: -5344149138942829948
+    second: uiLifeAni_42
+  - first:
+      213: 2514472085927104018
+    second: uiLifeAni_43
+  - first:
+      213: -7338695969554708156
+    second: uiLifeAni_44
+  - first:
+      213: 6317637016645178911
+    second: uiLifeAni_45
+  - first:
+      213: -2303836244450577336
+    second: uiLifeAni_46
+  - first:
+      213: 7462703101906908560
+    second: uiLifeAni_47
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: uiLifeAni_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab829e3ccaa379f80800000000000000
+      internalID: -8099940891106924358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 294
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f090abdd6da15ecf0800000000000000
+      internalID: -223743096339691249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_2
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 294
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43d56a6a0d83d260800000000000000
+      internalID: 7121190511677133642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_3
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 294
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c93b3a70432e6410800000000000000
+      internalID: 1472152888032311746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_4
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 294
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8935c2c945c4a540800000000000000
+      internalID: 5018352805388564878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_5
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 294
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf70f6c813967dde0800000000000000
+      internalID: -1308461505197438980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_6
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 294
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0303d32c41c2d60800000000000000
+      internalID: 7866685473592193237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 245
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fdd0895091aeae0800000000000000
+      internalID: -1519374412467544298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_8
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 245
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2de453e5fa005d80800000000000000
+      internalID: -8264093265027601108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_9
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 245
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02160b7ef6f39ed40800000000000000
+      internalID: 5614088160355049760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_10
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 245
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2b35955be9943f0800000000000000
+      internalID: -916026547468258583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_11
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 245
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775cb637edeb13190800000000000000
+      internalID: -7984390801722718857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_12
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 245
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bf44d79ef0319e0800000000000000
+      internalID: -1651959142811370610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_13
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 245
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd28c422a3668be80800000000000000
+      internalID: -8162661924739448097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfcaf56e1b500810800000000000000
+      internalID: 1729482443028352990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_15
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 196
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e6162121789af00800000000000000
+      internalID: 1128581693320556118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_16
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 196
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0037643c4c5e4e340800000000000000
+      internalID: 4892287728483726080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_17
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 196
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255479298e1b4e610800000000000000
+      internalID: 1649638975974360402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_18
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 196
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0686b3ec1c21420800000000000000
+      internalID: 2599353026450317562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_19
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 196
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbe8473d659a0260800000000000000
+      internalID: 7064623261795544027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_20
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 196
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d90defb34d98d9c0800000000000000
+      internalID: -3902196162808182319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b552cf97e901160800000000000000
+      internalID: 6994264468064918381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_22
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 147
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5c2752611e7a820800000000000000
+      internalID: 2929557567861605804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_23
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 147
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd53545b105db4c60800000000000000
+      internalID: 7803564982662411741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_24
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 147
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b8ae48f85f190e0800000000000000
+      internalID: -2264759140831556839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_25
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 147
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03643c9db00562810800000000000000
+      internalID: 1740166317853591088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_26
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 147
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc597b428d7bd620800000000000000
+      internalID: 2799969591906360497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_27
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 147
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7355adc3594a4ef0800000000000000
+      internalID: -123205415517990022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a2a33956ec295a0800000000000000
+      internalID: -6515918775194604971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_29
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 98
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9df1ed69a44a690800000000000000
+      internalID: -7591861060007634461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_30
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 98
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eba41a7f819016d0800000000000000
+      internalID: -3021755304551076894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_31
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 98
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56098feaa9b9c9170800000000000000
+      internalID: 8186589311315513445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_32
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 98
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955596110c063ba10800000000000000
+      internalID: 1923987843859436889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_33
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 98
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1da60166237e24c0800000000000000
+      internalID: -4310381184673207012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_34
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 98
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5708cce330dd0900800000000000000
+      internalID: 652406442473031519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10e140fa33d10e60800000000000000
+      internalID: 7926849069241196572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_36
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 49
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15673b12a9068520800000000000000
+      internalID: 2703859218128528668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_37
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 49
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0339439518894d0800000000000000
+      internalID: -3127607721074675498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_38
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 49
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255d571edc5489870800000000000000
+      internalID: 8689772231564580178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_39
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 49
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bfe8dc3cbfa66b0800000000000000
+      internalID: -5302148792889443485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_40
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 49
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d829a0b1b63e8f5e0800000000000000
+      internalID: -1875499195645128051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_41
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 49
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ddb874297b22d40800000000000000
+      internalID: 5558206729022070149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a5a923ca4c5d5b0800000000000000
+      internalID: -5344149138942829948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_43
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 0
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e02573a0335e220800000000000000
+      internalID: 2514472085927104018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_44
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 0
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449c914d5e6b72a90800000000000000
+      internalID: -7338695969554708156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_45
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 0
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f169ef4f461cca750800000000000000
+      internalID: 6317637016645178911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_46
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 0
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8447ad454212700e0800000000000000
+      internalID: -2303836244450577336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiLifeAni_47
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 0
+        width: 187
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095fd5d9ee8d09760800000000000000
+      internalID: 7462703101906908560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      uiLifeAni_25: 1740166317853591088
+      uiLifeAni_38: 8689772231564580178
+      uiLifeAni_30: -3021755304551076894
+      uiLifeAni_45: 6317637016645178911
+      uiLifeAni_19: 7064623261795544027
+      uiLifeAni_46: -2303836244450577336
+      uiLifeAni_36: 2703859218128528668
+      uiLifeAni_29: -7591861060007634461
+      uiLifeAni_12: -1651959142811370610
+      uiLifeAni_32: 1923987843859436889
+      uiLifeAni_11: -7984390801722718857
+      uiLifeAni_43: 2514472085927104018
+      uiLifeAni_20: -3902196162808182319
+      uiLifeAni_42: -5344149138942829948
+      uiLifeAni_9: 5614088160355049760
+      uiLifeAni_21: 6994264468064918381
+      uiLifeAni_4: 5018352805388564878
+      uiLifeAni_28: -6515918775194604971
+      uiLifeAni_31: 8186589311315513445
+      uiLifeAni_2: 7121190511677133642
+      uiLifeAni_18: 2599353026450317562
+      uiLifeAni_33: -4310381184673207012
+      uiLifeAni_27: -123205415517990022
+      uiLifeAni_26: 2799969591906360497
+      uiLifeAni_7: -1519374412467544298
+      uiLifeAni_1: -223743096339691249
+      uiLifeAni_3: 1472152888032311746
+      uiLifeAni_47: 7462703101906908560
+      uiLifeAni_10: -916026547468258583
+      uiLifeAni_37: -3127607721074675498
+      uiLifeAni_39: -5302148792889443485
+      uiLifeAni_34: 652406442473031519
+      uiLifeAni_17: 1649638975974360402
+      uiLifeAni_44: -7338695969554708156
+      uiLifeAni_14: 1729482443028352990
+      uiLifeAni_8: -8264093265027601108
+      uiLifeAni_22: 2929557567861605804
+      uiLifeAni_0: -8099940891106924358
+      uiLifeAni_40: -1875499195645128051
+      uiLifeAni_41: 5558206729022070149
+      uiLifeAni_23: 7803564982662411741
+      uiLifeAni_15: 1128581693320556118
+      uiLifeAni_16: 4892287728483726080
+      uiLifeAni_13: -8162661924739448097
+      uiLifeAni_35: 7926849069241196572
+      uiLifeAni_24: -2264759140831556839
+      uiLifeAni_6: 7866685473592193237
+      uiLifeAni_5: -1308461505197438980
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

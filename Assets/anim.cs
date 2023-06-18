@@ -9,6 +9,10 @@ public class anim : MonoBehaviour
     public bool grabb;
     public Grab grabbedObject;
     public PlayerMovement player;
+    public bool isGrabbing = true;
+    public Grab grabber;
+    public AudioSource audioSourceFoot;
+    public AudioSource audioSourceGrab;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,29 +20,60 @@ public class anim : MonoBehaviour
         anime = GetComponent<Animator>();
         //findobject of type grab
         grabbedObject = FindObjectOfType<Grab>().GetComponent<Grab>();
+        grabber = grabbedObject;
         player = FindObjectOfType<PlayerMovement>().GetComponent<PlayerMovement>();
+
+        //audioSourceFoot = GetComponent<AudioSource>();
 
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        
         float move = Input.GetAxis("Horizontal");
         //move set float walk
-       
-        if(grabbedObject.isGrabbing == true)
+        if(move != 0)
         {
-            anime.SetBool("grabb", true);
+            anime.SetFloat("walk", 1);
+            if(player.IsOnGround == true)
+            {
+                audioSourceFoot.enabled = true;
+            }
+            else
+            {
+                audioSourceFoot.enabled = false;
+            }
+
         }
         else
         {
-            anime.SetBool("grabb", false);
+            anime.SetFloat("walk", 0);
+            audioSourceFoot.enabled = false;
+        }
+        
+        if(grabbedObject.isGrabbing == true)
+        {
+            if(isGrabbing == true)
+            {
+            anime.SetTrigger("grabb");
+            StartCoroutine(Grab());
+            audioSourceGrab.enabled = true;
+            }
+            
+        }
+        else
+        {
+            //anime.SetBool("grabb", false);
+            audioSourceGrab.enabled = false;
         }
         anime.SetFloat("walk", move);
 
         if(player.IsJumping == true)
         {
             anime.SetBool("jump", true);
+            
         }
         else
         {
@@ -52,7 +87,33 @@ public class anim : MonoBehaviour
         {
             anime.SetBool("fall", false);
         }
-    
+        if(player.IsSliding == true)
+        {
+            anime.SetBool("slide", true);
+        }
+        else
+        {
+            anime.SetBool("slide", false);
+        }
+
+        if(player.IsWallJumping == true)
+        {
+            anime.SetBool("walljump", true);
+        }
+        else
+        {
+            anime.SetBool("walljump", false);
+        }
      
+    }
+
+    //coroutine for grab
+    IEnumerator Grab()
+    {
+        //set grab to true
+        //wait for 1 second
+        yield return new WaitForSeconds(1);
+        //set grab to false
+        grabb = true;
     }
 }
