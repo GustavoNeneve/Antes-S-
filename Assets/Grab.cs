@@ -47,17 +47,18 @@ public class Grab : MonoBehaviour
                     
                     isGrabbing = true;
                 }
-                else if(Input.GetKeyUp(KeyCode.E) && grabbedObject != null)
-                {
-                    grabbedObject.GetComponent<Rigidbody2D>().isKinematic = false;
-                    grabbedObject.transform.position = new Vector3(1.4f, raycastpoint.position.y, 0);
-                    grabbedObject.transform.parent = null;
-                    grabbedObject = null;
-
-                    isGrabbing = false;
-                }
+                
             }
         }
+        else if(Input.GetKeyUp(KeyCode.E) && grabbedObject != null)
+            {
+                grabbedObject.GetComponent<Rigidbody2D>().isKinematic = false;
+                grabbedObject.transform.position = new Vector3(1.4f, raycastpoint.position.y, 0);
+                grabbedObject.transform.parent = null;
+                grabbedObject = null;
+
+                isGrabbing = false;
+            }
         Debug.DrawRay(raycastpoint.position, transform.right * raycastdistance, Color.red);
 
     }
