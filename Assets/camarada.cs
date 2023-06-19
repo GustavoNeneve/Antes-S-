@@ -29,9 +29,7 @@ public class camarada : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            if(Input.GetKeyDown(KeyCode.E))
-            {
-
+            
                 
                 if (tem2 == false)
                 {
@@ -40,7 +38,7 @@ public class camarada : MonoBehaviour
                 {
                     texto2.SetActive(true);
                 }
-            }
+            
         }
     }
 
