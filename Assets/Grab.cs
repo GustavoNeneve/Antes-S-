@@ -82,7 +82,7 @@ public class Grab : MonoBehaviour
                 
             }
         }
-        else if(Input.GetKeyUp(KeyCode.E) && grabbedObject != null)
+        else if(Input.GetKeyDown(KeyCode.E) && grabbedObject != null)
             {
                 //grabbedObject.GetComponent<Rigidbody2D>().isKinematic = false;
                 isCarrying = false;
