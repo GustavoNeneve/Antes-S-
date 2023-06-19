@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 4909938570390953764}
   - component: {fileID: 4190832175381379599}
   m_Layer: 8
-  m_Name: Orb
+  m_Name: Orb Branca
   m_TagString: Grabbable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
