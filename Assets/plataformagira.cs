@@ -68,7 +68,7 @@ public class plataformagira : MonoBehaviour
     IEnumerator Rotate()
     {
         yield return new WaitForSeconds(2f);
-        transform.rotation = Quaternion.Euler(0, 0, 0);
+        transform.Rotate(0, 0, 90);
     }
 
 }
