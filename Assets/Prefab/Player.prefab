@@ -793,7 +793,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.04, y: -0.15}
-  m_Size: {x: 0.45, y: 1}
+  m_Size: {x: 0.37, y: 1}
   m_Direction: 0
 --- !u!50 &4449614319894070453
 Rigidbody2D:
@@ -1082,7 +1082,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.47, y: 0.05}
+  m_Size: {x: 0.62, y: 0.05}
   m_EdgeRadius: 0
 --- !u!114 &5159608442276843658
 MonoBehaviour:
