@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -337,8 +339,22 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: 0}
+        - {x: -22, y: -32}
+        - {x: 22, y: -32}
+        - {x: 32, y: 7}
+        - {x: 32, y: 31}
+        - {x: 31, y: 32}
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -20, y: 13}
+        - {x: -16, y: -32}
+        - {x: 16, y: -32}
+        - {x: 18, y: 11}
+        - {x: 32, y: 31}
+        - {x: 31, y: 32}
       tessellationDetail: 0
       bones: []
       spriteID: 2356fb7d36e730640bdf5a82673b2d72
@@ -359,7 +375,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -16, y: 32}
+        - {x: -16, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: 32}
       tessellationDetail: 0
       bones: []
       spriteID: 4e26d4ba3420a9849b633a4e336d32ab
@@ -380,7 +400,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -22}
+        - {x: 32, y: -22}
+        - {x: 32, y: 32}
+      - - {x: -19, y: 7}
+        - {x: 21, y: 7}
+        - {x: 21, y: 3}
+        - {x: -19, y: 3}
       tessellationDetail: 0
       bones: []
       spriteID: bd390d91281f7374093ecc3ddeb820dc
@@ -629,7 +657,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -650,7 +678,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -671,7 +699,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -694,36 +722,35 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      cenario_21: -1620738977
-      cenario_15: 1313300482
-      cenario_7: -539551404
-      cenario_13: 873820579
-      cenario_10: 2088592471
-      cenario_25: -914625021
-      cenario_9: -1538437647
-      cenario_24: 2042085445
-      cenario_26: 942149032
-      cenario_6: 2056536280
-      cenario_19: 1744644841
-      cenario_4: 1065198077
-      cenario_20: 2051517083
-      cenario_5: 1672854928
-      cenario_14: -1241136523
-      cenario_3: 420490409
-      cenario_22: 746753333
-      cenario_8: -1263842582
-      cenario_16: -1536117319
-      cenario_2: -611431460
-      cenario_23: -609057132
+      cenario_0: -839439145
       cenario_1: -1529349537
-      cenario_18: -1204104358
+      cenario_10: 2088592471
       cenario_11: -253784167
       cenario_12: -1172029128
+      cenario_13: 873820579
+      cenario_14: -1241136523
+      cenario_15: 1313300482
+      cenario_16: -1536117319
       cenario_17: -1209199155
-      cenario_0: -839439145
-  spritePackingTag: 
+      cenario_18: -1204104358
+      cenario_19: 1744644841
+      cenario_2: -611431460
+      cenario_20: 2051517083
+      cenario_21: -1620738977
+      cenario_22: 746753333
+      cenario_23: -609057132
+      cenario_24: 2042085445
+      cenario_25: -914625021
+      cenario_26: 942149032
+      cenario_3: 420490409
+      cenario_4: 1065198077
+      cenario_5: 1672854928
+      cenario_6: 2056536280
+      cenario_7: -539551404
+      cenario_8: -1263842582
+      cenario_9: -1538437647
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
