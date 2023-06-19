@@ -14,7 +14,7 @@ public class plataformagira : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(playerOn == false)
+        /*if(playerOn == false)
         {
             if(transform.rotation.z > 10 && transform.rotation.z < 80)
             {
@@ -36,6 +36,7 @@ public class plataformagira : MonoBehaviour
                 transform.rotation = Quaternion.Euler(0, 0, angle + (Time.deltaTime));
             }
         }
+        */
     }
 
     //oncollisionenter2d
@@ -54,5 +55,20 @@ public class plataformagira : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            //couroutine for rotate
+            StartCoroutine(Rotate());
+        }
+    }
+
+    //couroutine for rotate
+    IEnumerator Rotate()
+    {
+        yield return new WaitForSeconds(2f);
+        transform.rotation = Quaternion.Euler(0, 0, 0);
+    }
 
 }
